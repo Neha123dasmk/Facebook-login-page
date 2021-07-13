@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <div class="logo">
+                <a  class="logo-text" href="index.html">facebook</a>
+
+
+            </div>
+            <div class="login">
+                <form>
+                <table class="login-controls">
+                    <tr>
+                        <td><label class="login-label">Email or Mobile </label></td>
+                        <td><label class="login-label">Password</label></td>    
+                    </tr>
+                    <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input class="loginbutton" type="submit" value="Log In"></td></tr>
+                    <tr> <td></td>
+                        <td><a class="forgotten" href="forgotten.html">Forgotten account?</a></td>
+                    </tr>
+
+
+                </table></form>
+            
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class="main-body">
+        <div class="left-section">
+            <p class="para">Facebook helps you to connect and share with the people in your life. </p>
+            <img class="image"src="fb login.png">
+        </div>
+        <div class="right-section">
+            <h1 class="h1">Create an account?</h1>
+            <p class="para1">It's quick and easy.</p>
+
+            <div class="signup-controls">
+            <form class="form" id="signupform">
+                <div class="signup-fieldname">
+                <input name="fname"class="firstname" type="text" placeholder="First Name" required>
+                <input name="sname"class="firstname" type="text" placeholder="Surname"required><br>
+                </div>
+
+                <div class="signup-field">
+                <input name="emailAddress"class="email"type="email"  placeholder="Mobile number or email address"required><br>
+                </div>
+
+                <div class="signup-field">
+                <input name="password" type="password" class="password" placeholder="New password"required><br><br><br><br><br>
+                </div>
+
+                <div class="signup-field">
+                <p class="para2">Birthday</p>
+                <select class="date" name="day"required>
+                    <option value="">Day</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    </select>
+                    <select name="month" class="date" required >
+                    <option value="">Mon</option>
+                    <option value="jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                </select>
+                <select name="year" class="date"required  >
+                    <option value="">Year</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                </select><br>
+        
+                <p name="gender" class="para2"  >Gender</p>
+
+                <input class="gender" type="radio" name="gender" value="male"required>Male
+                <input  class="gender" type="radio" name="gender"  value="female"required>Female
+                <input  class="gender"  type="radio" name="gender" value="custom"required>Custom
+                 <i class="fa fa-question-circle"></i><br>
+            </div>
+
+            <div class="signup-field">
+                <p class="para3">By clicking Sign Up, you agree to
+                    our <a class="terms" href="term.html">Terms</a>,<a class="terms" href="datapolicy.html">Data Policy</a><br>
+                     and <a class="terms" href="cookies.html">Cookies Policy</a>.You may receive SMS notifications from us and <br>
+                    can opt out at any time.</p>
+                    <button class="button" type="submit">Sign Up</button>
+                </div>
+
+            </form>
+    
+
+        </div>
+
+    </div>
+    <div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

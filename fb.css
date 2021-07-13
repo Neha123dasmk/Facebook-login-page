@@ -1,0 +1,160 @@
+.header{
+    background: #3b5998;
+    width: 100%;
+    height: 80px;
+}
+body{
+    margin:0px;
+    font-family: sans-serif;
+}
+.logo{
+    width:50%;
+    padding-top: 35px;
+    float: left;
+    }
+.login{
+    width:50%;
+    float: left;
+}
+.logo-text{
+color: #fff;
+font-size: 30px;
+font-weight: bold;
+text-decoration: none;
+font-family: sans-serif;
+margin-left: 100px;
+}
+.login-controls{
+    padding-top: 5px;
+}
+.login-label{
+    color: #fff;
+    font-size: smaller;
+}
+.forgotten{
+    color: #fff;
+    font-size: smaller;
+    text-decoration: none;
+    color: rgb(128, 146, 226);
+
+}
+.loginbutton{
+    background-color: #465e91;
+    color: #fff;
+    border-color: #365899;
+    cursor: pointer;
+}
+.loginbutton:hover{
+    background: rgb(58, 111, 207);
+
+}
+.left-section{
+    width: 30%;
+    float: left;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.right-section{
+    width: 50%;
+    float: left;
+    
+}
+.main-body{
+    background:linear-gradient(white,#D3D8E8);
+    width: 100%;
+    height: 625px;
+}
+.image{
+    width: 500px;
+
+}
+.para{
+    font-size: 17px;
+    font-weight: bold;
+}
+.form{
+    padding-left:20% ;
+}
+.h1{
+    padding-left:20% ;
+    font-size: xx-large;
+    margin-left:20px;
+}
+.firstname{
+    height: 31px;
+    width: 173px;
+    float: left;
+    border-radius:5px ;
+    border-color: rgb(208, 208, 224);
+    padding-left:16px ;
+    margin-left:20px;
+}
+.para1{
+    margin-left:172px;
+}
+.email{
+    height: 31px;
+    width: 387px;
+    float: left;
+    border-radius:5px ;
+    border-color: rgb(208, 208, 224);
+    padding-left:16px ;
+    margin-left:20px;
+    margin-top: 12px;
+    
+}
+.password{
+    height: 31px;
+    width: 387px;
+    float: left;
+    border-radius:5px ;
+    border-color: rgb(208, 208, 224);
+    padding-left:16px;
+    margin-left:20px;
+    margin-top: 12px;
+    
+}
+.date{
+    float: left;
+    margin-top: -11px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border-color: rgb(208, 208, 224);
+    padding-left: 2px;
+    height: 31px;
+    width: 55px;
+}
+.para2{
+    margin-top: 32px;
+    margin-left: 22px;
+    font-size: medium;
+    color:#365c77;
+    font-weight: bold;
+
+}
+.gender{
+    margin-left: 25px;
+}
+.para3{
+margin-top: 32px;
+    margin-left: 22px;
+    font-size: small;
+    color: #365c77;
+}
+.terms{
+    text-decoration: none;
+}
+.button{
+    background-color: #2b9217;
+    color: #fff;
+    height: 48px;
+    width: 226px;
+    border-radius: 8px;
+    border-color: rgb(208, 208, 224);
+    padding-left: 3px;
+    margin-left: 20px;
+    font-size: large;;
+}
+.signup-field{
+    float: left;
+}
